@@ -13,7 +13,7 @@ class tree
         
 
 		//loadImage
-        this.image=loadImage("images/tree.png");
+        this.image=loadImage("tree.png");
         
         //create bodies
 		this.bottomBody=Bodies.rectangle(this.x, this.y, this.dustbinWidth, this.wallThickness, {isStatic:true})
